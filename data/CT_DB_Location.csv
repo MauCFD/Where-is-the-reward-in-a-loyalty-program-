@@ -1,578 +1,578 @@
-Client ID,Town,State
-2,Tlalnepantla,Ciudad de Mexico
-4,Tlalnepantla,Ciudad de Mexico
-10,Tlalnepantla,Ciudad de Mexico
-12,Villahermosa,Tabasco
-13,Tuxtla Gutierrez,Chiapas
-14,Tuxtla Gutierrez,Chiapas
-15,Tuxtla Gutierrez,Chiapas
-16,Pachuca,Hidalgo
-17,Pachuca,Hidalgo
-21,Pachuca,Hidalgo
-23,Guadalajara,Jalisco
-24,Guadalajara,Jalisco
-25,Gustavo A. Madero,Ciudad de Mexico
-26,Gustavo A. Madero,Ciudad de Mexico
-28,Gustavo A. Madero,Ciudad de Mexico
-30,Gustavo A. Madero,Ciudad de Mexico
-32,Gustavo A. Madero,Ciudad de Mexico
-33,Gustavo A. Madero,Ciudad de Mexico
-35,Leon,Guanajuato
-38,Leon,Guanajuato
-44,Leon,Guanajuato
-45,Guadalajara,Jalisco
-46,Guadalajara,Jalisco
-48,Guadalajara,Jalisco
-51,Tuxtla Gutierrez,Chiapas
-54,Nezahualcoyotl,Estado de Mexico
-56,Nezahualcoyotl,Estado de Mexico
-58,Nezahualcoyotl,Estado de Mexico
-64,Tlalnepantla,Estado de Mexico
-72,Tlalnepantla,Estado de Mexico
-82,Tlalnepantla,Estado de Mexico
-83,Naucalpan de Juarez,Estado de Mexico
-86,Naucalpan de Juarez,Estado de Mexico
-87,Guadalajara,Jalisco
-89,Guadalajara,Jalisco
-93,Guadalajara,Jalisco
-95,Guadalajara,Jalisco
-101,Guadalajara,Jalisco
-118,Guadalajara,Jalisco
-130,Alvaro Obregon,Ciudad de Mexico
-136,Alvaro Obregon,Ciudad de Mexico
-145,Alvaro Obregon,Ciudad de Mexico
-152,Tepic,Nayarit
-160,Tepic,Nayarit
-162,Tepic,Nayarit
-163,Tepic,Nayarit
-167,Tepic,Nayarit
-173,Tepic,Nayarit
-183,Xalisco,Nayarit
-186,Xalisco,Nayarit
-192,Salamanca,Guanajuato
-199,Salamanca,Guanajuato
-207,Salamanca,Guanajuato
-234,Silao,Guanajuato
-266,Campeche,Campeche
-289,Campeche,Campeche
-291,Campeche,Campeche
-292,Zacatecas,Zacatecas
-299,Zacatecas,Zacatecas
-300,Zacatecas,Zacatecas
-301,Iztapalapa,Ciudad de Mexico
-303,Iztapalapa,Ciudad de Mexico
-306,Iztapalapa,Ciudad de Mexico
-317,Cuauhtemoc,Ciudad de Mexico
-323,Cuauhtemoc,Ciudad de Mexico
-328,Cuauhtemoc,Ciudad de Mexico
-329,Acapulco,Guerrero
-330,Acapulco,Guerrero
-335,Acapulco,Guerrero
-336,Gustavo A. Madero,Ciudad de Mexico
-343,Gustavo A. Madero,Ciudad de Mexico
-347,Alvaro Obregon,Ciudad de Mexico
-350,Alvaro Obregon,Ciudad de Mexico
-351,Alvaro Obregon,Ciudad de Mexico
-361,Miguel Hidalgo,Ciudad de Mexico
-369,Ecatepec,Estado de Mexico
-371,Ecatepec,Estado de Mexico
-381,Ecatepec,Estado de Mexico
-383,Tejupilco,Estado de Mexico
-384,Naucalpan de Juarez,Estado de Mexico
-385,Naucalpan de Juarez,Estado de Mexico
-386,Naucalpan de Juarez,Estado de Mexico
-387,Naucalpan de Juarez,Estado de Mexico
-388,Cuautitlan Izcalli,Estado de Mexico
-389,Coacalco de Berriozabal,Estado de Mexico
-392,Coacalco de Berriozabal,Estado de Mexico
-393,Coacalco de Berriozabal,Estado de Mexico
-402,V. Carranza,Ciudad de Mexico
-403,V. Carranza,Ciudad de Mexico
-404,V. Carranza,Ciudad de Mexico
-409,Iztapalapa,Ciudad de Mexico
-420,Iztacalco,Ciudad de Mexico
-421,Iztacalco,Ciudad de Mexico
-425,V. Carranza,Ciudad de Mexico
-427,V. Carranza,Ciudad de Mexico
-429,V. Carranza,Ciudad de Mexico
-434,Naucalpan de Juarez,Estado de Mexico
-437,Toluca,Estado de Mexico
-448,Toluca,Estado de Mexico
-451,Toluca,Estado de Mexico
-452,Naucalpan de Juarez,Estado de Mexico
-453,Naucalpan de Juarez,Estado de Mexico
-454,Naucalpan de Juarez,Estado de Mexico
-457,Tenancingo,Estado de Mexico
-475,Tenancingo,Estado de Mexico
-478,Tenancingo,Estado de Mexico
-483,Nicolas Romero,Estado de Mexico
-485,Teoloyuca,Estado de Mexico
-486,Teoloyuca,Estado de Mexico
-492,Teoloyuca,Estado de Mexico
-498,Ecatepec,Estado de Mexico
-505,Ecatepec,Estado de Mexico
-520,Ecatepec,Estado de Mexico
-523,Oaxaca,Oaxaca
-524,Oaxaca,Oaxaca
-527,Oaxaca,Oaxaca
-533,Mihualtepec Sn.francisco,Estado de Mexico
-539,Culiacan,Sinaloa
-549,Culiacan,Sinaloa
-555,Culiacan,Sinaloa
-563,Culiacan,Sinaloa
-566,San Nicolas de Los Garza,Nuevo Leon
-567,San Nicolas de Los Garza,Nuevo Leon
-578,San Nicolas de Los Garza,Nuevo Leon
-579,Cadereyta,Nuevo Leon
-581,Monterrey,Nuevo Leon
-584,Monterrey,Nuevo Leon
-589,Lazaro Cardenas,Michoacan
-590,Lazaro Cardenas,Michoacan
-592,Lazaro Cardenas,Michoacan
-594,Lazaro Cardenas,Michoacan
-597,Lazaro Cardenas,Michoacan
-598,Ciudad Sahagun,Hidalgo
-602,Ciudad Sahagun,Hidalgo
-605,Ciudad Sahagun,Hidalgo
-608,Tulancingo,Hidalgo
-612,Tulancingo,Hidalgo
-614,Oaxaca,Oaxaca
-616,Oaxaca,Oaxaca
-619,Oaxaca,Oaxaca
-621,Juchitan,Oaxaca
-622,Juchitan,Oaxaca
-623,Juchitan,Oaxaca
-624,Lagos de Moreno,Jalisco
-626,Lagos de Moreno,Jalisco
-629,Lagos de Moreno,Jalisco
-631,Puerto Vallarta,Jalisco
-634,Puerto Vallarta,Jalisco
-645,Puerto Vallarta,Jalisco
-646,Leon,Guanajuato
-647,Leon,Guanajuato
-648,Leon,Guanajuato
-653,Leon,Guanajuato
-655,Leon,Guanajuato
-658,Leon,Guanajuato
-663,Salamanca,Guanajuato
-664,Salamanca,Guanajuato
-666,Salamanca,Guanajuato
-669,Aguascalientes,Aguascalientes
-672,Aguascalientes,Aguascalientes
-673,Aguascalientes,Aguascalientes
-674,Benito Juarez,Quintana Roo
-675,Merida,Yucatan
-678,Merida,Yucatan
-679,Merida,Yucatan
-682,Tlalpan,Ciudad de Mexico
-689,Gustavo A. Madero,Ciudad de Mexico
-690,Gustavo A. Madero,Ciudad de Mexico
-691,Gustavo A. Madero,Ciudad de Mexico
-692,Tultitlan,Estado de Mexico
-693,Iguala,Guerrero
-697,Taxco de Alarcon,Guerrero
-698,Chilpancingo,Guerrero
-700,Acapulco,Guerrero
-711,Acapulco,Guerrero
-712,Acapulco,Guerrero
-717,Tierra Blanca,Veracruz
-718,Cordoba,Veracruz
-720,Cordoba,Veracruz
-722,-,Veracruz
-723,-,Veracruz
-724,-,Veracruz
-727,Libres,Puebla
-729,Libres,Puebla
-730,Libres,Puebla
-732,Puebla,Puebla
-735,Paraiso,Tabasco
-739,Morelia,Michoacan
-741,Morelia,Michoacan
-742,Morelia,Michoacan
-743,Etzatlan,Jalisco
-744,Etzatlan,Jalisco
-745,Etzatlan,Jalisco
-748,Guadalajara,Jalisco
-751,Guadalajara,Jalisco
-753,Guadalajara,Jalisco
-755,Xochimilco,Ciudad de Mexico
-757,San Luis Potosi,San Luis Potosi
-758,San Luis Potosi,San Luis Potosi
-761,San Luis Potosi,San Luis Potosi
-762,San Luis Potosi,San Luis Potosi
-763,San Luis Potosi,San Luis Potosi
-764,San Luis Potosi,San Luis Potosi
-765,Guadalupe,Nuevo Leon
-766,Guadalupe,Nuevo Leon
-767,Guadalupe,Nuevo Leon
-772,San Nicolas de Los Garza,Nuevo Leon
-774,San Nicolas de Los Garza,Nuevo Leon
-775,San Nicolas de Los Garza,Nuevo Leon
-776,Iguala,Guerrero
-778,Iguala,Guerrero
-779,Iguala,Guerrero
-781,Ixtapaluca,Estado de Mexico
-784,Tula de Allende,Hidalgo
-795,Tula de Allende,Hidalgo
-797,Tula de Allende,Hidalgo
-798,Coyoacan,Ciudad de Mexico
-802,Iztacalco,Ciudad de Mexico
-803,Cuauhtemoc,Ciudad de Mexico
-804,Zumpango,Estado de Mexico
-805,Zumpango,Estado de Mexico
-806,Zumpango,Estado de Mexico
-807,Tulancingo,Hidalgo
-810,Tulancingo,Hidalgo
-811,Tulancingo,Hidalgo
-815,Oaxaca,Oaxaca
-816,Oaxaca,Oaxaca
-821,Oaxaca,Oaxaca
-822,Oaxaca,Oaxaca
-824,Oaxaca,Oaxaca
-826,Nezahualcoyotl,Estado de Mexico
-837,Nezahualcoyotl,Estado de Mexico
-842,Nezahualcoyotl,Estado de Mexico
-848,Coyoacan,Ciudad de Mexico
-850,Coyoacan,Ciudad de Mexico
-855,Coyoacan,Ciudad de Mexico
-865,Puebla,Puebla
-867,Puebla,Puebla
-868,Ezequiel Montes,Queretaro
-873,Cuajimalpa,Ciudad de Mexico
-875,Irapuato,Guanajuato
-879,Irapuato,Guanajuato
-881,Irapuato,Guanajuato
-883,Morelia,Michoacan
-884,Morelia,Michoacan
-886,Morelia,Michoacan
-887,Nueva Italia,Michoacan
-888,Nueva Italia,Michoacan
-890,Nueva Italia,Michoacan
-892,Ameca,Jalisco
-894,Ameca,Jalisco
-896,Ameca,Jalisco
-898,Apizaco,Tlaxcala
-899,Apizaco,Tlaxcala
-903,Huamantla,Tlaxcala
-904,Huamantla,Tlaxcala
-907,Huamantla,Tlaxcala
-908,Teziutlan,Puebla
-911,Tehuacan,Puebla
-914,Tehuacan,Puebla
-918,Tehuacan,Puebla
-919,Teziutlan,Puebla
-923,Xalapa,Veracruz
-924,Tapachula,Chiapas
-925,Tapachula,Chiapas
-927,Tapachula,Chiapas
-929,Cuajimalpa,Ciudad de Mexico
-932,Cuajimalpa,Ciudad de Mexico
-933,Cuajimalpa,Ciudad de Mexico
-934,Toluca,Estado de Mexico
-937,Toluca,Estado de Mexico
-939,Toluca,Estado de Mexico
-943,Gustavo A. Madero,Ciudad de Mexico
-945,Gustavo A. Madero,Ciudad de Mexico
-952,Gustavo A. Madero,Ciudad de Mexico
-954,Cuauhtemoc,Ciudad de Mexico
-958,Cuauhtemoc,Ciudad de Mexico
-959,Chalco,Estado de Mexico
-960,Chalco,Estado de Mexico
-961,Nezahualcoyotl,Estado de Mexico
-962,Nezahualcoyotl,Estado de Mexico
-964,Nezahualcoyotl,Estado de Mexico
-966,Santa Catarina,Nuevo Leon
-967,Santa Catarina,Nuevo Leon
-969,Santa Catarina,Nuevo Leon
-971,Uruapan,Michoacan
-975,Huajuapan de Leon,Oaxaca
-977,Huajuapan de Leon,Oaxaca
-978,Huajuapan de Leon,Oaxaca
-983,Guadalajara,Jalisco
-984,Guadalajara,Jalisco
-985,Guadalajara,Jalisco
-986,V. Carranza,Ciudad de Mexico
-987,V. Carranza,Ciudad de Mexico
-988,V. Carranza,Ciudad de Mexico
-989,Cuernavaca,Morelos
-992,Cuernavaca,Morelos
-996,Cuernavaca,Morelos
-998,Monterrey,Nuevo Leon
-999,Monterrey,Nuevo Leon
-1000,Monterrey,Nuevo Leon
-1002,San Miguel de Allende,Guanajuato
-1005,San Miguel de Allende,Guanajuato
-1006,Dolores Hidalgo,Guanajuato
-1008,Puebla,Puebla
-1015,Tampico,Tamaulipas
-1018,Tampico,Tamaulipas
-1019,Tampico,Tamaulipas
-1020,V. Carranza,Ciudad de Mexico
-1022,Guadalupe,Nuevo Leon
-1023,Guadalupe,Nuevo Leon
-1024,Guadalupe,Nuevo Leon
-1025,Nezahualcoyotl,Estado de Mexico
-1026,Nezahualcoyotl,Estado de Mexico
-1027,San Luis Potosi,San Luis Potosi
-1028,San Luis Potosi,San Luis Potosi
-1031,San Luis Potosi,San Luis Potosi
-1032,San Luis Potosi,San Luis Potosi
-1037,San Luis Potosi,San Luis Potosi
-1039,San Luis Potosi,San Luis Potosi
-1040,Yajalon,Chiapas
-1044,Guadalajara,Jalisco
-1046,Guadalajara,Jalisco
-1049,Guadalajara,Jalisco
-1051,Tlaltenango,Zacatecas
-1053,Culiacan,Sinaloa
-1054,Tlaxiaco,Oaxaca
-1056,Tlaxiaco,Oaxaca
-1057,Tlaxiaco,Oaxaca
-1060,Pinotepa Nacional,Oaxaca
-1064,Cordoba,Veracruz
-1065,Cordoba,Veracruz
-1066,Cordoba,Veracruz
-1068,Salina Cruz,Oaxaca
-1070,Salina Cruz,Oaxaca
-1072,Salina Cruz,Oaxaca
-1074,Guadalajara,Jalisco
-1080,Guadalajara,Jalisco
-1084,Guadalajara,Jalisco
-1085,Josefa Vergara,Queretaro
-1089,Josefa Vergara,Queretaro
-1090,Gustavo A. Madero,Ciudad de Mexico
-1091,Tlapa de Comonfort,Guerrero
-1093,San Nicolas de Los Garza,Nuevo Leon
-1094,Xicohtzinco,Tlaxcala
-1095,Cordoba,Veracruz
-1096,Guadalupe,Zacatecas
-1097,Nicolas Romero,Estado de Mexico
-1100,Nicolas Romero,Estado de Mexico
-1102,Nicolas Romero,Estado de Mexico
-1103,Ameca,Jalisco
-1104,Ameca,Jalisco
-1107,Ameca,Jalisco
-1112,Tampico,Tamaulipas
-1113,Tampico,Tamaulipas
-1114,Atlacomulco,Estado de Mexico
-1115,Atlacomulco,Estado de Mexico
-1116,Atlacomulco,Estado de Mexico
-1117,Villa del Carbon,Estado de Mexico
-1118,Villa del Carbon,Estado de Mexico
-1122,Villa del Carbon,Estado de Mexico
-1132,Tepatepec,Hidalgo
-1136,Tequisquiapan,Queretaro
-1137,Tequisquiapan,Queretaro
-1138,Tequisquiapan,Queretaro
-1140,Puebla,Puebla
-1141,Puebla,Puebla
-1142,Puebla,Puebla
-1145,San Pedro Apetitlan,Puebla
-1150,Morelia,Michoacan
-1154,Morelia,Michoacan
-1155,Poza Rica,Veracruz
-1156,La Piedad,Michoacan
-1157,Perote,Veracruz
-1158,Pachuca,Hidalgo
-1159,Pachuca,Hidalgo
-1160,Cordoba,Veracruz
-1161,Cordoba,Veracruz
-1162,Apatzingan,Michoacan
-1164,Apatzingan,Michoacan
-1165,Apatzingan,Michoacan
-1166,-,Guanajuato
-1167,Gustavo A. Madero,Ciudad de Mexico
-1168,Uruapan,Michoacan
-1169,Uruapan,Michoacan
-1170,Uruapan,Michoacan
-1171,Atlixco,Puebla
-1172,Guadalupe,Nuevo Leon
-1173,Guadalupe,Nuevo Leon
-1174,Guadalupe,Nuevo Leon
-1175,Cadereyta,Nuevo Leon
-1176,Cadereyta,Nuevo Leon
-1177,Veracruz,Veracruz
-1178,Veracruz,Veracruz
-1179,Veracruz,Veracruz
-1180,Acapulco,Guerrero
-1181,Amecameca,Estado de Mexico
-1182,San Juan del Rio,Queretaro
-1183,Queretaro,Queretaro
-1186,Queretaro,Queretaro
-1188,Queretaro,Queretaro
-1192,Uruapan,Michoacan
-1194,Uruapan,Michoacan
-1196,Uruapan,Michoacan
-1197,Tapachula,Chiapas
-1198,Tapachula,Chiapas
-1199,Villa Milpa Alta,Ciudad de Mexico
-1200,Villa Milpa Alta,Ciudad de Mexico
-1201,Villa Milpa Alta,Ciudad de Mexico
-1202,Ciudad Mante,Tamaulipas
-1204,San Nicolas de Los Garza,Nuevo Leon
-1205,San Nicolas de Los Garza,Nuevo Leon
-1206,San Nicolas de Los Garza,Nuevo Leon
-1207,Naucalpan de Juarez,Estado de Mexico
-1208,Naucalpan de Juarez,Estado de Mexico
-1209,Naucalpan de Juarez,Estado de Mexico
-1210,Culiacan,Sinaloa
-1211,Culiacan,Sinaloa
-1212,Culiacan,Sinaloa
-1213,Cuautitlan Izcalli,Estado de Mexico
-1214,Pachuca,Hidalgo
-1215,Acapulco,Guerrero
-1216,Acapulco,Guerrero
-1217,Acapulco,Guerrero
-1218,Iguala,Guerrero
-1219,Acapulco,Guerrero
-1220,Guadalajara,Jalisco
-1221,Naucalpan de Juarez,Estado de Mexico
-1222,Naucalpan de Juarez,Estado de Mexico
-1223,Nezahualcoyotl,Estado de Mexico
-1225,Villahermosa,Tabasco
-1226,Villahermosa,Tabasco
-1227,Villahermosa,Tabasco
-1228,Tulancingo,Hidalgo
-1229,Tulancingo,Hidalgo
-1230,Tulancingo,Hidalgo
-1231,Toluca,Estado de Mexico
-1232,Toluca,Estado de Mexico
-1233,Toluca,Estado de Mexico
-1234,Metepec,Estado de Mexico
-1235,Metepec,Estado de Mexico
-1236,Metepec,Estado de Mexico
-1237,Monterrey,Nuevo Leon
-1238,Monterrey,Nuevo Leon
-1239,Monterrey,Nuevo Leon
-1240,Monterrey,Nuevo Leon
-1241,Morelia,Michoacan
-1242,Toluca,Estado de Mexico
-1243,Poza Rica,Veracruz
-1244,Poza Rica,Veracruz
-1245,Izucar de Matamoros,Puebla
-1246,Izucar de Matamoros,Puebla
-1247,Ciudad Sahagun,Hidalgo
-1248,Ciudad Sahagun,Hidalgo
-1249,Ciudad Sahagun,Hidalgo
-1250,Tampico,Tamaulipas
-1251,Santa Ana Chiautempan,Tlaxcala
-1252,Santa Ana Chiautempan,Tlaxcala
-1253,Culiacan,Sinaloa
-1254,Santa Rosa Jauregui,Queretaro
-1255,Santa Rosa Jauregui,Queretaro
-1256,Santa Rosa Jauregui,Queretaro
-1257,Tultitlan,Estado de Mexico
-1258,Tultitlan,Estado de Mexico
-1259,Tepic,Nayarit
-1260,Culiacan,Sinaloa
-1261,Culiacan,Sinaloa
-1262,Culiacan,Sinaloa
-1263,Chimalhuacan,Estado de Mexico
-1264,Ixmiquilpan,Hidalgo
-1265,Ixmiquilpan,Hidalgo
-1266,Ixmiquilpan,Hidalgo
-1267,Santiago Tianquistengo,Estado de Mexico
-1268,Santiago Tianquistengo,Estado de Mexico
-1269,Santiago Tianquistengo,Estado de Mexico
-1270,Apatzingan,Michoacan
-1271,Apatzingan,Michoacan
-1272,Toluca,Estado de Mexico
-1273,Toluca,Estado de Mexico
-1274,Toluca,Estado de Mexico
-1275,Guadalajara,Jalisco
-1276,Guadalajara,Jalisco
-1277,Chimalhuacan,Estado de Mexico
-1278,Guadalajara,Jalisco
-1279,Guadalajara,Jalisco
-1280,Guadalajara,Jalisco
-1281,Saltillo,Coahuila
-1282,Monterrey,Nuevo Leon
-1283,Monterrey,Nuevo Leon
-1284,Monterrey,Nuevo Leon
-1285,Guadalupe,Nuevo Leon
-1286,Guadalajara,Jalisco
-1287,Guadalajara,Jalisco
-1288,Guadalajara,Jalisco
-1289,Leon,Guanajuato
-1290,Leon,Guanajuato
-1291,Leon,Guanajuato
-1292,Ciudad Hidalgo,Michoacan
-1293,Ciudad Hidalgo,Michoacan
-1294,Ciudad Hidalgo,Michoacan
-1295,San Luis de La Paz,Guanajuato
-1296,San Luis de La Paz,Guanajuato
-1297,San Luis de La Paz,Guanajuato
-1298,Ciudad Hidalgo,Michoacan
-1299,Tonala,Chiapas
-1300,Autlan de Navarro,Jalisco
-1301,Autlan de Navarro,Jalisco
-1302,Autlan de Navarro,Jalisco
-1303,Xonacatlan,Estado de Mexico
-1304,Xonacatlan,Estado de Mexico
-1305,Xonacatlan,Estado de Mexico
-1306,Xonacatlan,Estado de Mexico
-1307,Monterrey,Nuevo Leon
-1308,Monterrey,Nuevo Leon
-1309,Monterrey,Nuevo Leon
-1310,Monterrey,Nuevo Leon
-1311,Tulcingo de Valle,Puebla
-1312,Tulcingo de Valle,Puebla
-1313,Tulcingo de Valle,Puebla
-1314,Guanajuato,Guanajuato
-1315,Tlalpan,Ciudad de Mexico
-1317,Iztapalapa,Ciudad de Mexico
-1318,Iztapalapa,Ciudad de Mexico
-1319,Coyoacan,Ciudad de Mexico
-1320,Coyoacan,Ciudad de Mexico
-1321,Huajuapan de Leon,Oaxaca
-1322,Huajuapan de Leon,Oaxaca
-1323,Manzanillo,Colima
-1324,Arandas,Jalisco
-1325,Arandas,Jalisco
-1326,Arandas,Jalisco
-1327,Arandas,Jalisco
-1328,Arandas,Jalisco
-1329,Arandas,Jalisco
-1330,Guadalajara,Jalisco
-1331,Guadalajara,Jalisco
-1332,Guadalajara,Jalisco
-1333,Morelia,Michoacan
-1334,Morelia,Michoacan
-1335,Morelia,Michoacan
-1336,Huitzuco,Guerrero
-1337,Oaxaca,Oaxaca
-1338,Minatitlan,Veracruz
-1339,Minatitlan,Veracruz
-1340,Minatitlan,Veracruz
-1341,Acayucan,Veracruz
-1342,Acayucan,Veracruz
-1343,Acayucan,Veracruz
-1344,Monterrey,Nuevo Leon
-1345,Monterrey,Nuevo Leon
-1346,Monterrey,Nuevo Leon
-1347,Monterrey,Nuevo Leon
-1348,Tlaxiaco,Oaxaca
-1349,Gustavo A. Madero,Ciudad de Mexico
-1350,Gustavo A. Madero,Ciudad de Mexico
-1351,Morelia,Michoacan
-1352,Morelia,Michoacan
-1353,Morelia,Michoacan
-1354,Morelia,Michoacan
-1355,Morelia,Michoacan
-1356,Morelia,Michoacan
-1357,Morelia,Michoacan
-1358,V. Carranza,Ciudad de Mexico
-1359,V. Carranza,Ciudad de Mexico
-1360,V. Carranza,Ciudad de Mexico
-1361,Morelia,Michoacan
-1362,Autlan de Navarro,Jalisco
-1363,Ecatepec,Estado de Mexico
-1364,Ecatepec,Estado de Mexico
-1365,Ecatepec,Estado de Mexico
-1366,Tuxpan,Veracruz
-1367,Tuxpan,Veracruz
-1368,Tuxpan,Veracruz
-1369,Ciudad Hidalgo,Michoacan
-1370,Colima,Colima
-1371,Colima,Colima
-1372,Tezontepec,Hidalgo
+Client ID,Town,State,Zip Code
+2,Tlalnepantla,Ciudad de Mexico,02070
+4,Tlalnepantla,Ciudad de Mexico,86150
+10,Tlalnepantla,Ciudad de Mexico,29000
+12,Villahermosa,Tabasco,42090
+13,Tuxtla Gutierrez,Chiapas,44100
+14,Tuxtla Gutierrez,Chiapas,07230
+15,Tuxtla Gutierrez,Chiapas,07280
+16,Pachuca,Hidalgo,37390
+17,Pachuca,Hidalgo,44700
+21,Pachuca,Hidalgo,57000
+23,Guadalajara,Jalisco,54030
+24,Guadalajara,Jalisco,53420
+25,Gustavo A. Madero,Ciudad de Mexico,44420
+26,Gustavo A. Madero,Ciudad de Mexico,44280
+28,Gustavo A. Madero,Ciudad de Mexico,01470
+30,Gustavo A. Madero,Ciudad de Mexico,63000
+32,Gustavo A. Madero,Ciudad de Mexico,63080
+33,Gustavo A. Madero,Ciudad de Mexico,63780
+35,Leon,Guanajuato,36700
+38,Leon,Guanajuato,24070
+44,Leon,Guanajuato,98056
+45,Guadalajara,Jalisco,09280
+46,Guadalajara,Jalisco,06220
+48,Guadalajara,Jalisco,39350
+51,Tuxtla Gutierrez,Chiapas,07370
+54,Nezahualcoyotl,Estado de Mexico,01460
+56,Nezahualcoyotl,Estado de Mexico,55290
+58,Nezahualcoyotl,Estado de Mexico,53000
+64,Tlalnepantla,Estado de Mexico,55714
+72,Tlalnepantla,Estado de Mexico,15530
+82,Tlalnepantla,Estado de Mexico,08500
+83,Naucalpan de Juarez,Estado de Mexico,15000
+86,Naucalpan de Juarez,Estado de Mexico,50090
+87,Guadalajara,Jalisco,53420
+89,Guadalajara,Jalisco,52400
+93,Guadalajara,Jalisco,54770
+95,Guadalajara,Jalisco,55069
+101,Guadalajara,Jalisco,68050
+118,Guadalajara,Jalisco,80200
+130,Alvaro Obregon,Ciudad de Mexico,66460
+136,Alvaro Obregon,Ciudad de Mexico,64000
+145,Alvaro Obregon,Ciudad de Mexico,60950
+152,Tepic,Nayarit,43998
+160,Tepic,Nayarit,68050
+162,Tepic,Nayarit,70000
+163,Tepic,Nayarit,47400
+167,Tepic,Nayarit,48320
+173,Tepic,Nayarit,37380
+183,Xalisco,Nayarit,37340
+186,Xalisco,Nayarit,36700
+192,Salamanca,Guanajuato,20240
+199,Salamanca,Guanajuato,97000
+207,Salamanca,Guanajuato,07920
+234,Silao,Guanajuato,94500
+266,Campeche,Campeche,73780
+289,Campeche,Campeche,58020
+291,Campeche,Campeche,46500
+292,Zacatecas,Zacatecas,44920
+299,Zacatecas,Zacatecas,78438
+300,Zacatecas,Zacatecas,78038
+301,Iztapalapa,Ciudad de Mexico,67180
+303,Iztapalapa,Ciudad de Mexico,66450
+306,Iztapalapa,Ciudad de Mexico,40080
+317,Cuauhtemoc,Ciudad de Mexico,42800
+323,Cuauhtemoc,Ciudad de Mexico,55600
+328,Cuauhtemoc,Ciudad de Mexico,43630
+329,Acapulco,Guerrero,68050
+330,Acapulco,Guerrero,68000
+335,Acapulco,Guerrero,57710
+336,Gustavo A. Madero,Ciudad de Mexico,04600
+343,Gustavo A. Madero,Ciudad de Mexico,72320
+347,Alvaro Obregon,Ciudad de Mexico,36550
+350,Alvaro Obregon,Ciudad de Mexico,58000
+351,Alvaro Obregon,Ciudad de Mexico,61760
+361,Miguel Hidalgo,Ciudad de Mexico,46600
+369,Ecatepec,Estado de Mexico,90500
+371,Ecatepec,Estado de Mexico,75700
+381,Ecatepec,Estado de Mexico,30705
+383,Tejupilco,Estado de Mexico,05000
+384,Naucalpan de Juarez,Estado de Mexico,50150
+385,Naucalpan de Juarez,Estado de Mexico,07580
+386,Naucalpan de Juarez,Estado de Mexico,06220
+387,Naucalpan de Juarez,Estado de Mexico,56608
+388,Cuautitlan Izcalli,Estado de Mexico,57000
+389,Coacalco de Berriozabal,Estado de Mexico,66364
+392,Coacalco de Berriozabal,Estado de Mexico,69000
+393,Coacalco de Berriozabal,Estado de Mexico,44260
+402,V. Carranza,Ciudad de Mexico,15530
+403,V. Carranza,Ciudad de Mexico,62090
+404,V. Carranza,Ciudad de Mexico,64530
+409,Iztapalapa,Ciudad de Mexico,37700
+420,Iztacalco,Ciudad de Mexico,89348
+421,Iztacalco,Ciudad de Mexico,15530
+425,V. Carranza,Ciudad de Mexico,67180
+427,V. Carranza,Ciudad de Mexico,57410
+429,V. Carranza,Ciudad de Mexico,78049
+434,Naucalpan de Juarez,Estado de Mexico,74837
+437,Toluca,Estado de Mexico,44920
+448,Toluca,Estado de Mexico,69800
+451,Toluca,Estado de Mexico,94500
+452,Naucalpan de Juarez,Estado de Mexico,70610
+453,Naucalpan de Juarez,Estado de Mexico,44380
+454,Naucalpan de Juarez,Estado de Mexico,77710
+457,Tenancingo,Estado de Mexico,07910
+475,Tenancingo,Estado de Mexico,54434
+478,Tenancingo,Estado de Mexico,46600
+483,Nicolas Romero,Estado de Mexico,89118
+485,Teoloyuca,Estado de Mexico,50455
+486,Teoloyuca,Estado de Mexico,54300
+492,Teoloyuca,Estado de Mexico,76790
+498,Ecatepec,Estado de Mexico,72550
+505,Ecatepec,Estado de Mexico,58000
+520,Ecatepec,Estado de Mexico,11223
+523,Oaxaca,Oaxaca,94500
+524,Oaxaca,Oaxaca,58011
+527,Oaxaca,Oaxaca,07279
+533,Mihualtepec Sn.francisco,Estado de Mexico,60050
+539,Culiacan,Sinaloa,67180
+549,Culiacan,Sinaloa,91700
+555,Culiacan,Sinaloa,76070
+563,Culiacan,Sinaloa,60050
+566,San Nicolas de Los Garza,Nuevo Leon,30700
+567,San Nicolas de Los Garza,Nuevo Leon,12000
+578,San Nicolas de Los Garza,Nuevo Leon,66457
+579,Cadereyta,Nuevo Leon,53220
+581,Monterrey,Nuevo Leon,80180
+584,Monterrey,Nuevo Leon,39905
+589,Lazaro Cardenas,Michoacan,53520
+590,Lazaro Cardenas,Michoacan,57710
+592,Lazaro Cardenas,Michoacan,29130
+594,Lazaro Cardenas,Michoacan,43630
+597,Lazaro Cardenas,Michoacan,50100
+598,Ciudad Sahagun,Hidalgo,52170
+602,Ciudad Sahagun,Hidalgo,64020
+605,Ciudad Sahagun,Hidalgo,93240
+608,Tulancingo,Hidalgo,43994
+612,Tulancingo,Hidalgo,90800
+614,Oaxaca,Oaxaca,76220
+616,Oaxaca,Oaxaca,54900
+619,Oaxaca,Oaxaca,80030
+621,Juchitan,Oaxaca,42300
+622,Juchitan,Oaxaca,52600
+623,Juchitan,Oaxaca,60640
+624,Lagos de Moreno,Jalisco,50190
+626,Lagos de Moreno,Jalisco,44970
+629,Lagos de Moreno,Jalisco,56330
+631,Puerto Vallarta,Jalisco,44970
+634,Puerto Vallarta,Jalisco,64580
+645,Puerto Vallarta,Jalisco,44970
+646,Leon,Guanajuato,37380
+647,Leon,Guanajuato,61115
+648,Leon,Guanajuato,37900
+653,Leon,Guanajuato,48900
+655,Leon,Guanajuato,52060
+658,Leon,Guanajuato,64230
+663,Salamanca,Guanajuato,74790
+664,Salamanca,Guanajuato,36250
+666,Salamanca,Guanajuato,09800
+669,Aguascalientes,Aguascalientes,69000
+672,Aguascalientes,Aguascalientes,47184
+673,Aguascalientes,Aguascalientes,47180
+674,Benito Juarez,Quintana Roo,44480
+675,Merida,Yucatan,58070
+678,Merida,Yucatan,96760
+679,Merida,Yucatan,96026
+682,Tlalpan,Ciudad de Mexico,64580
+689,Gustavo A. Madero,Ciudad de Mexico,07100
+690,Gustavo A. Madero,Ciudad de Mexico,58040
+691,Gustavo A. Madero,Ciudad de Mexico,58140
+692,Tultitlan,Estado de Mexico,58150
+693,Iguala,Guerrero,15500
+697,Taxco de Alarcon,Guerrero,55070
+698,Chilpancingo,Guerrero,92800
+700,Acapulco,Guerrero,28000
+711,Acapulco,Guerrero,92730
+712,Acapulco,Guerrero,93600
+717,Tierra Blanca,Veracruz,52986
+718,Cordoba,Veracruz,93340
+720,Cordoba,Veracruz,59000
+722,-,Veracruz,36550
+723,-,Veracruz,80230
+724,-,Veracruz,72580
+727,Libres,Puebla,80200
+729,Libres,Puebla,50190
+730,Libres,Puebla,66600
+732,Puebla,Puebla,66460
+735,Paraiso,Tabasco,96056
+739,Morelia,Michoacan,56000
+741,Morelia,Michoacan,58117
+742,Morelia,Michoacan,54457
+743,Etzatlan,Jalisco,54270
+744,Etzatlan,Jalisco,45067
+745,Etzatlan,Jalisco,42830
+748,Guadalajara,Jalisco,37220
+751,Guadalajara,Jalisco,37250
+753,Guadalajara,Jalisco,03600
+755,Xochimilco,Ciudad de Mexico,37900
+757,San Luis Potosi,San Luis Potosi,45060
+758,San Luis Potosi,San Luis Potosi,73300
+761,San Luis Potosi,San Luis Potosi,14250
+762,San Luis Potosi,San Luis Potosi,01540
+763,San Luis Potosi,San Luis Potosi,59305
+764,San Luis Potosi,San Luis Potosi,66636
+765,Guadalupe,Nuevo Leon,64570
+766,Guadalupe,Nuevo Leon,72760
+767,Guadalupe,Nuevo Leon,47300
+772,San Nicolas de Los Garza,Nuevo Leon,73310
+774,San Nicolas de Los Garza,Nuevo Leon,42970
+775,San Nicolas de Los Garza,Nuevo Leon,52300
+776,Iguala,Guerrero,71228
+778,Iguala,Guerrero,68030
+779,Iguala,Guerrero,36250
+781,Ixtapaluca,Estado de Mexico,36740
+784,Tula de Allende,Hidalgo,64820
+795,Tula de Allende,Hidalgo,61600
+797,Tula de Allende,Hidalgo,36700
+798,Coyoacan,Ciudad de Mexico,54945
+802,Iztacalco,Ciudad de Mexico,36262
+803,Cuauhtemoc,Ciudad de Mexico,67160
+804,Zumpango,Estado de Mexico,67217
+805,Zumpango,Estado de Mexico,67450
+806,Zumpango,Estado de Mexico,70987
+807,Tulancingo,Hidalgo,50850
+810,Tulancingo,Hidalgo,10610
+811,Tulancingo,Hidalgo,42094
+815,Oaxaca,Oaxaca,80090
+816,Oaxaca,Oaxaca,80200
+821,Oaxaca,Oaxaca,79610
+822,Oaxaca,Oaxaca,27800
+824,Oaxaca,Oaxaca,36700
+826,Nezahualcoyotl,Estado de Mexico,30700
+837,Nezahualcoyotl,Estado de Mexico,81040
+842,Nezahualcoyotl,Estado de Mexico,81460
+848,Coyoacan,Ciudad de Mexico,20236
+850,Coyoacan,Ciudad de Mexico,80030
+855,Coyoacan,Ciudad de Mexico,34280
+865,Puebla,Puebla,79610
+867,Puebla,Puebla,47180
+868,Ezequiel Montes,Queretaro,72470
+873,Cuajimalpa,Ciudad de Mexico,27000
+875,Irapuato,Guanajuato,96340
+879,Irapuato,Guanajuato,92900
+881,Irapuato,Guanajuato,43630
+883,Morelia,Michoacan,37980
+884,Morelia,Michoacan,44130
+886,Morelia,Michoacan,50453
+887,Nueva Italia,Michoacan,43300
+888,Nueva Italia,Michoacan,24180
+890,Nueva Italia,Michoacan,34120
+892,Ameca,Jalisco,35760
+894,Ameca,Jalisco,79610
+896,Ameca,Jalisco,55600
+898,Apizaco,Tlaxcala,56900
+899,Apizaco,Tlaxcala,04600
+903,Huamantla,Tlaxcala,52147
+904,Huamantla,Tlaxcala,42730
+907,Huamantla,Tlaxcala,58089
+908,Teziutlan,Puebla,44800
+911,Tehuacan,Puebla,91700
+914,Tehuacan,Puebla,43350
+918,Tehuacan,Puebla,61650
+919,Teziutlan,Puebla,96576
+923,Xalapa,Veracruz,94930
+924,Tapachula,Chiapas,94500
+925,Tapachula,Chiapas,95870
+927,Tapachula,Chiapas,43000
+929,Cuajimalpa,Ciudad de Mexico,56600
+932,Cuajimalpa,Ciudad de Mexico,39700
+933,Cuajimalpa,Ciudad de Mexico,57940
+934,Toluca,Estado de Mexico,30700
+937,Toluca,Estado de Mexico,63197
+939,Toluca,Estado de Mexico,30705
+943,Gustavo A. Madero,Ciudad de Mexico,38600
+945,Gustavo A. Madero,Ciudad de Mexico,56538
+952,Gustavo A. Madero,Ciudad de Mexico,70190
+954,Cuauhtemoc,Ciudad de Mexico,97240
+958,Cuauhtemoc,Ciudad de Mexico,72080
+959,Chalco,Estado de Mexico,73800
+960,Chalco,Estado de Mexico,25720
+961,Nezahualcoyotl,Estado de Mexico,90300
+962,Nezahualcoyotl,Estado de Mexico,68039
+964,Nezahualcoyotl,Estado de Mexico,69800
+966,Santa Catarina,Nuevo Leon,39070
+967,Santa Catarina,Nuevo Leon,51030
+969,Santa Catarina,Nuevo Leon,63780
+971,Uruapan,Michoacan,63300
+975,Huajuapan de Leon,Oaxaca,55055
+977,Huajuapan de Leon,Oaxaca,54474
+978,Huajuapan de Leon,Oaxaca,86060
+983,Guadalajara,Jalisco,94735
+984,Guadalajara,Jalisco,94300
+985,Guadalajara,Jalisco,91700
+986,V. Carranza,Ciudad de Mexico,50640
+987,V. Carranza,Ciudad de Mexico,50450
+988,V. Carranza,Ciudad de Mexico,54700
+989,Cuernavaca,Morelos,99700
+992,Cuernavaca,Morelos,36262
+996,Cuernavaca,Morelos,74940
+998,Monterrey,Nuevo Leon,77516
+999,Monterrey,Nuevo Leon,77538
+1000,Monterrey,Nuevo Leon,77538
+1002,San Miguel de Allende,Guanajuato,77516
+1005,San Miguel de Allende,Guanajuato,62130
+1006,Dolores Hidalgo,Guanajuato,71510
+1008,Puebla,Puebla,10400
+1015,Tampico,Tamaulipas,42804
+1018,Tampico,Tamaulipas,78394
+1019,Tampico,Tamaulipas,51015
+1020,V. Carranza,Ciudad de Mexico,13100
+1022,Guadalupe,Nuevo Leon,52600
+1023,Guadalupe,Nuevo Leon,52400
+1024,Guadalupe,Nuevo Leon,70300
+1025,Nezahualcoyotl,Estado de Mexico,64010
+1026,Nezahualcoyotl,Estado de Mexico,01140
+1027,San Luis Potosi,San Luis Potosi,94300
+1028,San Luis Potosi,San Luis Potosi,91110
+1031,San Luis Potosi,San Luis Potosi,86090
+1032,San Luis Potosi,San Luis Potosi,29960
+1037,San Luis Potosi,San Luis Potosi,43900
+1039,San Luis Potosi,San Luis Potosi,63300
+1040,Yajalon,Chiapas,56100
+1044,Guadalajara,Jalisco,73780
+1046,Guadalajara,Jalisco,93600
+1049,Guadalajara,Jalisco,91110
+1051,Tlaltenango,Zacatecas,01280
+1053,Culiacan,Sinaloa,62972
+1054,Tlaxiaco,Oaxaca,73300
+1056,Tlaxiaco,Oaxaca,59000
+1057,Tlaxiaco,Oaxaca,66400
+1060,Pinotepa Nacional,Oaxaca,46000
+1064,Cordoba,Veracruz,79040
+1065,Cordoba,Veracruz,79090
+1066,Cordoba,Veracruz,81450
+1068,Salina Cruz,Oaxaca,47860
+1070,Salina Cruz,Oaxaca,34170
+1072,Salina Cruz,Oaxaca,30500
+1074,Guadalajara,Jalisco,30450
+1080,Guadalajara,Jalisco,82707
+1084,Guadalajara,Jalisco,57710
+1085,Josefa Vergara,Queretaro,61516
+1089,Josefa Vergara,Queretaro,90300
+1090,Gustavo A. Madero,Ciudad de Mexico,61516
+1091,Tlapa de Comonfort,Guerrero,52176
+1093,San Nicolas de Los Garza,Nuevo Leon,79560
+1094,Xicohtzinco,Tlaxcala,99700
+1095,Cordoba,Veracruz,99700
+1096,Guadalupe,Zacatecas,46200
+1097,Nicolas Romero,Estado de Mexico,07910
+1100,Nicolas Romero,Estado de Mexico,75480
+1102,Nicolas Romero,Estado de Mexico,78390
+1103,Ameca,Jalisco,78269
+1104,Ameca,Jalisco,78340
+1107,Ameca,Jalisco,55430
+1112,Tampico,Tamaulipas,61516
+1113,Tampico,Tamaulipas,61514
+1114,Atlacomulco,Estado de Mexico,44250
+1115,Atlacomulco,Estado de Mexico,44987
+1116,Atlacomulco,Estado de Mexico,44360
+1117,Villa del Carbon,Estado de Mexico,44810
+1118,Villa del Carbon,Estado de Mexico,45670
+1122,Villa del Carbon,Estado de Mexico,36560
+1132,Tepatepec,Hidalgo,24180
+1136,Tequisquiapan,Queretaro,51402
+1137,Tequisquiapan,Queretaro,61511
+1138,Tequisquiapan,Queretaro,52060
+1140,Puebla,Puebla,07530
+1141,Puebla,Puebla,07510
+1142,Puebla,Puebla,13219
+1145,San Pedro Apetitlan,Puebla,78390
+1150,Morelia,Michoacan,93400
+1154,Morelia,Michoacan,64910
+1155,Poza Rica,Veracruz,20676
+1156,La Piedad,Michoacan,44520
+1157,Perote,Veracruz,47980
+1158,Pachuca,Hidalgo,38090
+1159,Pachuca,Hidalgo,38010
+1160,Cordoba,Veracruz,04630
+1161,Cordoba,Veracruz,53000
+1162,Apatzingan,Michoacan,74021
+1164,Apatzingan,Michoacan,63180
+1165,Apatzingan,Michoacan,81040
+1166,-,Guanajuato,48400
+1167,Gustavo A. Madero,Ciudad de Mexico,63440
+1168,Uruapan,Michoacan,28110
+1169,Uruapan,Michoacan,63600
+1170,Uruapan,Michoacan,63200
+1171,Atlixco,Puebla,63600
+1172,Guadalupe,Nuevo Leon,51760
+1173,Guadalupe,Nuevo Leon,50457
+1174,Guadalupe,Nuevo Leon,50450
+1175,Cadereyta,Nuevo Leon,50450
+1176,Cadereyta,Nuevo Leon,50960
+1177,Veracruz,Veracruz,72595
+1178,Veracruz,Veracruz,72595
+1179,Veracruz,Veracruz,75250
+1180,Acapulco,Guerrero,97780
+1181,Amecameca,Estado de Mexico,52300
+1182,San Juan del Rio,Queretaro,67150
+1183,Queretaro,Queretaro,54725
+1186,Queretaro,Queretaro,48540
+1188,Queretaro,Queretaro,28100
+1192,Uruapan,Michoacan,76110
+1194,Uruapan,Michoacan,45601
+1196,Uruapan,Michoacan,58168
+1197,Tapachula,Chiapas,58000
+1198,Tapachula,Chiapas,55710
+1199,Villa Milpa Alta,Ciudad de Mexico,48900
+1200,Villa Milpa Alta,Ciudad de Mexico,60620
+1201,Villa Milpa Alta,Ciudad de Mexico,61760
+1202,Ciudad Mante,Tamaulipas,64620
+1204,San Nicolas de Los Garza,Nuevo Leon,42808
+1205,San Nicolas de Los Garza,Nuevo Leon,62740
+1206,San Nicolas de Los Garza,Nuevo Leon,11320
+1207,Naucalpan de Juarez,Estado de Mexico,43900
+1208,Naucalpan de Juarez,Estado de Mexico,54401
+1209,Naucalpan de Juarez,Estado de Mexico,80200
+1210,Culiacan,Sinaloa,66612
+1211,Culiacan,Sinaloa,50600
+1212,Culiacan,Sinaloa,51900
+1213,Cuautitlan Izcalli,Estado de Mexico,43720
+1214,Pachuca,Hidalgo,43736
+1215,Acapulco,Guerrero,55070
+1216,Acapulco,Guerrero,95700
+1217,Acapulco,Guerrero,92733
+1218,Iguala,Guerrero,54475
+1219,Acapulco,Guerrero,54725
+1220,Guadalajara,Jalisco,54435
+1221,Naucalpan de Juarez,Estado de Mexico,93400
+1222,Naucalpan de Juarez,Estado de Mexico,45085
+1223,Nezahualcoyotl,Estado de Mexico,54980
+1225,Villahermosa,Tabasco,80220
+1226,Villahermosa,Tabasco,80200
+1227,Villahermosa,Tabasco,80030
+1228,Tulancingo,Hidalgo,09100
+1229,Tulancingo,Hidalgo,64000
+1230,Tulancingo,Hidalgo,58040
+1231,Toluca,Estado de Mexico,61600
+1232,Toluca,Estado de Mexico,54960
+1233,Toluca,Estado de Mexico,51402
+1234,Metepec,Estado de Mexico,76125
+1235,Metepec,Estado de Mexico,42500
+1236,Metepec,Estado de Mexico,64300
+1237,Monterrey,Nuevo Leon,66438
+1238,Monterrey,Nuevo Leon,80240
+1239,Monterrey,Nuevo Leon,41304
+1240,Monterrey,Nuevo Leon,76100
+1241,Morelia,Michoacan,76850
+1242,Toluca,Estado de Mexico,95739
+1243,Poza Rica,Veracruz,74940
+1244,Poza Rica,Veracruz,07510
+1245,Izucar de Matamoros,Puebla,36251
+1246,Izucar de Matamoros,Puebla,62752
+1247,Ciudad Sahagun,Hidalgo,62660
+1248,Ciudad Sahagun,Hidalgo,40290
+1249,Ciudad Sahagun,Hidalgo,62752
+1250,Tampico,Tamaulipas,62752
+1251,Santa Ana Chiautempan,Tlaxcala,62076
+1252,Santa Ana Chiautempan,Tlaxcala,62170
+1253,Culiacan,Sinaloa,38000
+1254,Santa Rosa Jauregui,Queretaro,38260
+1255,Santa Rosa Jauregui,Queretaro,38480
+1256,Santa Rosa Jauregui,Queretaro,36530
+1257,Tultitlan,Estado de Mexico,36970
+1258,Tultitlan,Estado de Mexico,39300
+1259,Tepic,Nayarit,53427
+1260,Culiacan,Sinaloa,76080
+1261,Culiacan,Sinaloa,36597
+1262,Culiacan,Sinaloa,53240
+1263,Chimalhuacan,Estado de Mexico,40020
+1264,Ixmiquilpan,Hidalgo,40660
+1265,Ixmiquilpan,Hidalgo,51900
+1266,Ixmiquilpan,Hidalgo,55000
+1267,Santiago Tianquistengo,Estado de Mexico,03020
+1268,Santiago Tianquistengo,Estado de Mexico,38080
+1269,Santiago Tianquistengo,Estado de Mexico,37800
+1270,Apatzingan,Michoacan,76039
+1271,Apatzingan,Michoacan,04230
+1272,Toluca,Estado de Mexico,39012
+1273,Toluca,Estado de Mexico,38040
+1274,Toluca,Estado de Mexico,42070
+1275,Guadalajara,Jalisco,76160
+1276,Guadalajara,Jalisco,42500
+1277,Chimalhuacan,Estado de Mexico,42500
+1278,Guadalajara,Jalisco,42160
+1279,Guadalajara,Jalisco,09609
+1280,Guadalajara,Jalisco,55600
+1281,Saltillo,Coahuila,76010
+1282,Monterrey,Nuevo Leon,50640
+1283,Monterrey,Nuevo Leon,78390
+1284,Monterrey,Nuevo Leon,76120
+1285,Guadalupe,Nuevo Leon,20210
+1286,Guadalajara,Jalisco,20135
+1287,Guadalajara,Jalisco,20020
+1288,Guadalajara,Jalisco,76240
+1289,Leon,Guanajuato,42660
+1290,Leon,Guanajuato,51760
+1291,Leon,Guanajuato,50180
+1292,Ciudad Hidalgo,Michoacan,52700
+1293,Ciudad Hidalgo,Michoacan,62746
+1294,Ciudad Hidalgo,Michoacan,50850
+1295,San Luis de La Paz,Guanajuato,52170
+1296,San Luis de La Paz,Guanajuato,45750
+1297,San Luis de La Paz,Guanajuato,51412
+1298,Ciudad Hidalgo,Michoacan,03310
+1299,Tonala,Chiapas,09608
+1300,Autlan de Navarro,Jalisco,09800
+1301,Autlan de Navarro,Jalisco,76700
+1302,Autlan de Navarro,Jalisco,57100
+1303,Xonacatlan,Estado de Mexico,06220
+1304,Xonacatlan,Estado de Mexico,78390
+1305,Xonacatlan,Estado de Mexico,36597
+1306,Xonacatlan,Estado de Mexico,78310
+1307,Monterrey,Nuevo Leon,56600
+1308,Monterrey,Nuevo Leon,61250
+1309,Monterrey,Nuevo Leon,51900
+1310,Monterrey,Nuevo Leon,51200
+1311,Tulcingo de Valle,Puebla,51200
+1312,Tulcingo de Valle,Puebla,50313
+1313,Tulcingo de Valle,Puebla,51400
+1314,Guanajuato,Guanajuato,04300
+1315,Tlalpan,Ciudad de Mexico,78170
+1317,Iztapalapa,Ciudad de Mexico,78399
+1318,Iztapalapa,Ciudad de Mexico,43600
+1319,Coyoacan,Ciudad de Mexico,50740
+1320,Coyoacan,Ciudad de Mexico,72700
+1321,Huajuapan de Leon,Oaxaca,30790
+1322,Huajuapan de Leon,Oaxaca,53520
+1323,Manzanillo,Colima,55339
+1324,Arandas,Jalisco,55490
+1325,Arandas,Jalisco,14200
+1326,Arandas,Jalisco,09310
+1327,Arandas,Jalisco,20169
+1328,Arandas,Jalisco,07380
+1329,Arandas,Jalisco,15900
+1330,Guadalajara,Jalisco,37800
+1331,Guadalajara,Jalisco,16740
+1332,Guadalajara,Jalisco,51700
+1333,Morelia,Michoacan,42500
+1334,Morelia,Michoacan,42070
+1335,Morelia,Michoacan,54700
+1336,Huitzuco,Guerrero,42303
+1337,Oaxaca,Oaxaca,50360
+1338,Minatitlan,Veracruz,50400
+1339,Minatitlan,Veracruz,52044
+1340,Minatitlan,Veracruz,51760
+1341,Acayucan,Veracruz,51760
+1342,Acayucan,Veracruz,07170
+1343,Acayucan,Veracruz,07600
+1344,Monterrey,Nuevo Leon,43760
+1345,Monterrey,Nuevo Leon,42980
+1346,Monterrey,Nuevo Leon,67178
+1347,Monterrey,Nuevo Leon,52300
+1348,Tlaxiaco,Oaxaca,24900
+1349,Gustavo A. Madero,Ciudad de Mexico,07200
+1350,Gustavo A. Madero,Ciudad de Mexico,38817
+1351,Morelia,Michoacan,12000
+1352,Morelia,Michoacan,04630
+1353,Morelia,Michoacan,16090
+1354,Morelia,Michoacan,14100
+1355,Morelia,Michoacan,56619
+1356,Morelia,Michoacan,09760
+1357,Morelia,Michoacan,82000
+1358,V. Carranza,Ciudad de Mexico,72320
+1359,V. Carranza,Ciudad de Mexico,81343
+1360,V. Carranza,Ciudad de Mexico,52060
+1361,Tuxpan,Michoacan,61140
+1362,Tuxpan,Michoacan,61426
+1363,Lerma,Estado de Mexico,52004
+1364,Toluca,Estado de Mexico,50150
+1365,Tonatico,Estado de Mexico,50150
+1366,Temoaya,Estado de Mexico,50850
+1367,Santiago Tianguitenco,Estado de Mexico,52650
+1368,Tuxpan,Veracruz,29034
+1369,Ciudad Hidalgo,Michoacan,54725
+1370,Colima,Colima,77516
+1371,Colima,Colima,77712
+1372,Tezontepec,Hidalgo,36259

@@ -37,4 +37,4 @@ class MongoDB(object):
 
 if __name__ == "__main__":
     mongodb = MongoDB(dBName = 'reward_program', collectionName='reward_sales')
-    mongodb.InsertData(path="../data/CT_DB_Sales.csv")
+    mongodb.InsertData(path="../Project_df.csv")

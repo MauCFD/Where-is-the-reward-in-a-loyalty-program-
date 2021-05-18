@@ -7,7 +7,12 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 #mongo connection
-app.config['MONGO_URI']='mongodb://localhost:27017/reward_program'
+#local database
+#app.config['MONGO_URI']='mongodb://localhost:27017/reward_program'
+
+#public database
+app.config['MONGO_URI']='mongodb+srv://project2_team8:iIW0lZjZsSoJgNk3@cluster0.rwzth.mongodb.net/reward_program?retryWrites=true&w=majority'
+
 mongo = PyMongo(app)
 
 #first app to post new data into mongo

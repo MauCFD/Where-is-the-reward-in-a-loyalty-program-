@@ -3,8 +3,9 @@ from flask.helpers import url_for
 from flask_pymongo import PyMongo
 from bson import json_util
 from bson.objectid import ObjectId
+import pprint
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 #mongo connection
 #local database
@@ -19,11 +20,21 @@ mongo = PyMongo(app)
 @app.route("/")
 def index():
     return render_template('index.html')
+
+@app.route("/maps")
+def maps():
+    return render_template('maps.html')
+
+@app.route("/data")
+def data_page():
+    return render_template('data.html')
     
 
 #app to get the all data from database  json style from mongo
-@app.route('/get_all', methods=['GET'])
-def get_data():
+@app.route('/data/get_all', methods=['GET'])
+def get_all():
+    print("received")
+    # filter = request
     data = mongo.db.reward_sales.find({},{'_id':False})
     #extract data from mongo in json format
     response = json_util.dumps(data)
@@ -31,10 +42,11 @@ def get_data():
 
 
 #filter data from mongo using object id, using find_one is only the first data
-@app.route('/category/<category>', methods=['GET'])
-def get_category(category):
-    name = category.upper()
-    data_registry = mongo.db.reward_sales.find({'Category': name},{'_id':False})
+@app.route('/data/category', methods=['GET'])
+def get_category():
+    name = request.args["filtered_cat"]
+    print(name)
+    data_registry = mongo.db.reward_sales.find({'Category': name.upper()},{'_id':False})
     response = json_util.dumps(data_registry)
     return Response(response, mimetype="application/json")
 

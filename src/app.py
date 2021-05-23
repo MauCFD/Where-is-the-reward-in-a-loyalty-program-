@@ -30,6 +30,10 @@ def data_page():
     return render_template('data.html')
     
 
+@app.route("/brief")
+def brief():
+    return render_template('brief.html')   
+
 #app to get the all data from database  json style from mongo
 @app.route('/data/get_all', methods=['GET'])
 def get_all():

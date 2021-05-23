@@ -24,6 +24,10 @@ def index():
 def maps():
     return render_template('maps.html')    
 
+@app.route("/brief")
+def brief():
+    return render_template('brief.html')   
+
 #app to get the all data from database  json style from mongo
 @app.route('/get_all', methods=['GET'])
 def get_data():

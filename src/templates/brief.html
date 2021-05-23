@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Maps CSS -->
-    <link rel="stylesheet" href="../styles/maps.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
 
     <!-- MDI -->
-    <link rel="stylesheet" href="cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -57,7 +59,10 @@
         </nav>
     </header>
 
-    <h1>Brief</h1>
+    <div style= "background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 90%), url('../static/images/Background.jpg');
+    height: 100vh; display: flex; background-size: cover">
+        <h1 style="color: #ffff; text-align: justify">Brief</h1>
+    </div>
     
     <script>
         $(document).ready(function () {

@@ -2,70 +2,69 @@
 <html lang="en">
 
 <head>
-    <title>Where is the reward in a rewards program?</title>
+    <title>Rewards Program Analysis | Where is the Reward? - Data</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Index CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+​
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+​<!-- Cloudfare-->   
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+crossorigin="anonymous"
+/>
+
+    <!-- MDI -->
+    <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
+​
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom CSS -->
     <link rel="stylesheet" href="../static/css/data.css">
 
-    <!-- Optional JavaScript -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
+
+
 </head>
 
-<style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar {
-      width: 100%;
-      background-color: #12161d;
-      overflow: auto;
-    }
-
-    .navbar a {
-      float: left;
-      padding: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background-color: #12161d;
-    }
-
-    .active {
-      background-color: #d3b502;
-    }
-
-    @media screen and (max-width: 500px) {
-      .navbar a {
-        float: none;
-        display: block;
-      }
-    }
-  </style>
-
-<div class=“navbar”>
-    <a class=“active” href=“#”><i class=“fa fa-fw fa-home”></i> Brief</a>
-    <a href=“#”><i class=“fa fa-fw fa-database”></i> Data</a>
-    <a href=“#”><i class=“fas fa-map-marked-alt”></i> Map</a>
-    <a href=“#”><i class=“fa fa-chart-line”></i> Dashboard</a>
-</div>
-
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar10">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="index.html">Intro</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="brief.html">Brief</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="data.html">Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="maps.html">Maps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container">
             <div class="row margin-top-50">

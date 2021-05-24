@@ -21,18 +21,22 @@ mongo = PyMongo(app)
 def index():
     return render_template('index.html')
 
-@app.route("/maps")
+@app.route("/maps.html")
 def maps():
     return render_template('maps.html')
 
-@app.route("/data")
+@app.route("/data.html")
 def data_page():
     return render_template('data.html')
     
 
-@app.route("/brief")
+@app.route("/brief.html")
 def brief():
     return render_template('brief.html')   
+
+@app.route("/dashboard.html")
+def dashboard():
+    return render_template('dashboard.html')   
 
 #app to get the all data from database  json style from mongo
 @app.route('/data/get_all', methods=['GET'])

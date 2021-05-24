@@ -3,37 +3,31 @@
 
 <head>
     <title>Rewards Program Analysis | Where is the Reward? - Data</title>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-​
+    ​
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
-​<!-- Cloudfare-->   
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-crossorigin="anonymous"
-/>
-
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    ​
+    <!-- Cloudfare-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <!-- MDI -->
     <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
-​
+    ​
+
     <!-- Optional JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     <!-- custom CSS -->
     <link rel="stylesheet" href="static/css/data.css">
-
-
-
 </head>
 
 <body>
@@ -45,10 +39,10 @@ crossorigin="anonymous"
                 </button>
                 <div class="navbar-collapse collapse" id="navbar10">
                     <ul class="navbar-nav nav-fill w-100">
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="index.html">Intro</a>
+                        <li class="nav-item ">
+                            <a class="nav-link font-weight-bold" href="/">Intro</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link font-weight-bold" href="brief.html">Brief</a>
                         </li>
                         <li class="nav-item active">
@@ -58,14 +52,14 @@ crossorigin="anonymous"
                             <a class="nav-link font-weight-bold" href="maps.html">Maps</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="dashboard.html">Dashboard</a>
+                            <a class="nav-link font-weight-bold" href="#">Dashboard</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+    <main>
         <div class="container">
             <div class="row margin-top-50">
                 <div class="col-md-12">
@@ -78,14 +72,15 @@ crossorigin="anonymous"
                                         <ul class="list-group" id="filters">
                                             <li class="filter list-group-item">
                                                 <label for="date">Enter a Category</label>
-                                                <input class="form-control" id="category_filter" type="text" placeholder="C1">
+                                                <input class="form-control" id="category_filter" type="text"
+                                                    placeholder="C1">
                                             </li>
                                         </ul>
                                     </div>
-                                  
-                                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                                  <button id="refresh-btn" type="button" class="btn btn-default">Refresh</button>
-                                </form>  
+                                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                                    <button id="refresh-btn" type="button" class="btn btn-default">Refresh</button>
+                                    <button id="clear-btn" type="button" class="btn btn-default">Clear Table</button>
+                                </form>
                             </div>
                         </div>
                     </aside>
@@ -117,89 +112,127 @@ crossorigin="anonymous"
                 </div>
             </div>
         </div>
-    
+    </main>
     <script>
-        $(document).ready(function() {
-            $('.navbar-nav .nav-item').click(function() {
+        $(document).ready(function () {
+            $('.navbar-nav .nav-item').click(function () {
                 $('.navbar-nav .nav-item').removeClass('active');
                 $(this).addClass('active');
             })
         });
     </script>
 
+    <script type="text/javascript">
 
-<script type="text/javascript">
+        $(document).ready(function () {
+            //console.log("test");
 
-$(document).ready(function(){
-    //console.log("test");
-    
-     
-    $("#refresh-btn").click(function(data){
-      data.preventDefault();
-      $.ajax({
-            type: "GET",
-            url: "/data/get_all",
-            data: {},
-            success: function(data_result){
-              console.log(data_result);
-              $('#table_data').find("tr").remove();
-              $.each(data_result, function(i, d) {
-              var row='<tr>';
-              $.each(d, function(j, e) {
-              row+='<td>'+e+'</td>';
-              });
-              row+='</tr>';
-              $('#table_data').append(row);
-              });
-            },
-            error: function(error){
-              console.log(error);
-            }
-           
-      });
-        
-    });
 
-    $("#filter-btn").click(function(data){
-      data.preventDefault();
-      var category = $("#category_filter").val();
-      if (category == "") {
-        alert("Missing Category Input: C1 ... C6");
-       } else {
-        var data_sent = {"filtered_cat": category};
-        console.log(data_sent);
-        $.ajax({
-              type: "GET",
-              url: "/data/category",
-              data: {
-                  filtered_cat : $("#category_filter").val()
-              },            
-              success: function(data_result){
-                console.log(data_result);
+            $("#refresh-btn").click(function (data) {
+                data.preventDefault();
+                $.ajax({
+                    type: "GET",
+                    url: "/data/get_all",
+                    data: {},
+                    success: function (data_result) {
+                        console.log(data_result);
+                        $('#table_data').find("tr").remove();
+                        $.each(data_result, function (i, d) {
+                            var row = '<tr>';
+                            $.each(d, function (j, e) {
+                                row += '<td>' + e + '</td>';
+                            });
+                            row += '</tr>';
+                            $('#table_data').append(row);
+                        });
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+
+                });
+
+            });
+
+            $("#filter-btn").click(function (data) {
+                data.preventDefault();
+                var category = $("#category_filter").val();
+                if (category == "") {
+                    alert("Missing Category Input: C1 ... C6");
+                } else {
+                    var data_sent = { "filtered_cat": category };
+                    console.log(data_sent);
+                    $.ajax({
+                        type: "GET",
+                        url: "/data/category",
+                        data: {
+                            filtered_cat: $("#category_filter").val()
+                        },
+                        success: function (data_result) {
+                            console.log(data_result);
+                            $('#table_data').find("tr").remove();
+                            $.each(data_result, function (i, d) {
+                                var row = '<tr>';
+                                $.each(d, function (j, e) {
+                                    row += '<td>' + e + '</td>';
+                                });
+                                row += '</tr>';
+                                $('#table_data').append(row);
+                            });
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+
+                    });
+                };
+            });
+
+            $("#category_filter").submit(function (data) {
+                data.preventDefault();
+                var category = $("#category_filter").val();
+                if (category == "") {
+                    alert("Missing Category Input: C1 ... C6");
+                } else {
+                    var data_sent = { "filtered_cat": category };
+                    console.log(data_sent);
+                    $.ajax({
+                        type: "GET",
+                        url: "/data/category",
+                        data: {
+                            filtered_cat: $("#category_filter").val()
+                        },
+                        success: function (data_result) {
+                            console.log(data_result);
+                            $('#table_data').find("tr").remove();
+                            $.each(data_result, function (i, d) {
+                                var row = '<tr>';
+                                $.each(d, function (j, e) {
+                                    row += '<td>' + e + '</td>';
+                                });
+                                row += '</tr>';
+                                $('#table_data').append(row);
+                            });
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+
+                    });
+                };
+            });
+
+            $("#clear-btn").click(function (data) {
+                data.preventDefault();
                 $('#table_data').find("tr").remove();
-                $.each(data_result, function(i, d) {
-                var row='<tr>';
-                $.each(d, function(j, e) {
-                row+='<td>'+e+'</td>';
-                });
-                row+='</tr>';
-                $('#table_data').append(row);
-                });
-              },
-              error: function(error){
-                console.log(error);
-              }
-                          
+            });
+
         });
-    }; 
-    });  
 
-});
 
-  
 
-</script>
 
+    </script>
 </body>
 
 </html>

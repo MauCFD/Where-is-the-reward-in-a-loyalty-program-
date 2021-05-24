@@ -115,6 +115,14 @@
       <div class="playground"></div>
     </main>
 
+    <script>
+      $(document).ready(function () {
+        $(".navbar-nav .nav-item").click(function () {
+          $(".navbar-nav .nav-item").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
     <!-- three.js code  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
     <script src="../static/js/index.js"></script>

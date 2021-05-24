@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Rewards Program Analysis | Where is the Reward? - Brief</title>
+    <title>Rewards Program Analysis | Where is the Reward? - Maps</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
+
+    <!-- Maps CSS -->
+    <link rel="stylesheet" href="../static/css/maps.css">
 
     <!-- MDI -->
     <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
@@ -44,19 +47,17 @@
                         <li class="nav-item active">
                             <a class="nav-link font-weight-bold" href="index.html">Intro</a>
                         </li>
-                        <li class="nav-item active">
-                          </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link font-weight-bold" href="brief.html">Brief</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold" href="data.html">Data</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link font-weight-bold" href="maps.html">Maps</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="#">Dashboard</a>
+                            <a class="nav-link font-weight-bold" href="dashboard.html">Dashboard</a>
                         </li>
                     </ul>
                 </div>
@@ -64,31 +65,7 @@
         </nav>
     </header>
 
-    <div style= "background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 95%), url('../static/images/Background.jpg');
-    height: 100vh; display: flex; background-size: cover; padding: 40px">
-        <div class="container" style="color: #ffff; text-align: justify">
-            <div class="row justify-content-md-center">
-                <div class="col-xl-auto">
-                    <h1>Where is the reward?</h1>
-                </div>
-            </div>
-            <div class="row" style="padding: 10px">
-                <div class="col-xl" style="text-align: right; padding: 50px">
-                    <h3>What Is a Rewards Program?</h3>
-                </div>
-            <div class="row">
-                <div class="col-xl"style="text-align: left; padding: 10px">
-                    Rewards programs are a great way to engage customers' attention. They work by offering prizes, discounts, and even cash to their most loyal buyers to retain them. The more often a client consumes a brand, the more benefits will be available.
-                    For a Rewards Program to be successful in a company's strategy, theory says it shall return no more than 2% of its total income.                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl" style="text-align: left; padding: 25px">
-                    The next project will consider a shock absorber brand's program. Its mechanics are simple.
-                    Subscribed customers are categorized by their monthly level of purchase, and these 6 different categories will serve to establish a minimum level of sales to be reached. This will serve to obtain monthly points, but by the quarter's end, a couple of bonuses can also be gained. Ultimately category C6 can earn an additional bonus at the end of the year as well.
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="map"></div>
     
     <script>
         $(document).ready(function () {
@@ -98,7 +75,14 @@
             })
         });
     </script>
-
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <!-- API key -->
+    <script type="text/javascript" src="../static/js/config.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="../static/js/maps.js"></script>
 </body>
 
 </html>

@@ -29,7 +29,6 @@ def maps():
 def data_page():
     return render_template('data.html')
     
-
 @app.route("/brief.html")
 def brief():
     return render_template('brief.html')   

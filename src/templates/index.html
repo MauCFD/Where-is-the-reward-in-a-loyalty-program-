@@ -1,67 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <title>Rewards Program Analysis | Where is the Reward? - Intro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta
-      charset="utf-8"
       name="viewport"
-      content="width=device-width, initial-scale=1"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Where is the reward in a rewards program?</title>
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="../static/css/index.css" />
+
+    <!-- MDI -->
+    <link
+      rel="stylesheet"
+      href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar {
-      width: 100%;
-      background-color: #12161d;
-      overflow: auto;
-    }
-
-    .navbar a {
-      float: left;
-      padding: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background-color: #12161d;
-    }
-
-    .active {
-      background-color: #d3b502;
-    }
-
-    @media screen and (max-width: 500px) {
-      .navbar a {
-        float: none;
-        display: block;
-      }
-    }
-  </style>
-
-  <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Brief</a>
-    <a href="#"><i class="fa fa-fw fa-database"></i> Data</a>
-    <a href="#"><i class="fas fa-map-marked-alt"></i> Map</a>
-    <a href="#"><i class="fa fa-chart-line"></i> Dashboard</a>
-  </div>
-
   <body>
-    <!-- <div>
-    <script type="x-shader/x-vertex" id="vertexshader">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar10"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item active">
+                <a class="nav-link font-weight-bold" href="index.html">Intro</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link font-weight-bold" href="brief.html">Brief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="data.html">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="maps.html">Maps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Dashboard</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      attribute float size;
+    <main>
+      <script type="x-shader/x-vertex" id="vertexshader">
+
+        attribute float size;
         attribute vec3 customColor;
         varying vec3 vColor;
 
@@ -75,9 +96,9 @@
         }
       </script>
 
-    <script type="x-shader/x-fragment" id="fragmentshader">
+      <script type="x-shader/x-fragment" id="fragmentshader">
 
-      uniform vec3 color;
+        uniform vec3 color;
         uniform sampler2D pointTexture;
 
         varying vec3 vColor;
@@ -90,11 +111,12 @@
         }
       </script>
 
-    <div id="magic"></div>
-    <div class="playground">
-      <div class="bottomPosition"></div>
-    </div> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
-    <script src="./script.js"></script> -->
+      <div id="magic"></div>
+      <div class="playground"></div>
+    </main>
+
+    <!-- three.js code  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+    <script src="../static/js/index.js"></script>
   </body>
 </html>

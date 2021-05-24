@@ -1,3 +1,5 @@
+// animation three.js
+
 const preload = () => {
   let manager = new THREE.LoadingManager();
   manager.onLoad = function () {

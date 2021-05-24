@@ -17,7 +17,7 @@ app.config['MONGO_URI']='mongodb+srv://project2_team8:iIW0lZjZsSoJgNk3@cluster0.
 mongo = PyMongo(app)
 
 
-@app.route("/")
+@app.route("/index.html")
 def index():
     return render_template('index.html')
 

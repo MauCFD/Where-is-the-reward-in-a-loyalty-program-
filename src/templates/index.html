@@ -1,100 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta
-      charset="utf-8"
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <title>Where is the reward in a rewards program?</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+<html lang="en">
 
-    .navbar {
-      width: 100%;
-      background-color: #12161d;
-      overflow: auto;
-    }
+<head>
+    <title>ZF Services Navigation Bar</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    .navbar a {
-      float: left;
-      padding: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-    }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    .navbar a:hover {
-      background-color: #12161d;
-    }
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="../static/css/index.css">
 
-    .active {
-      background-color: #d3b502;
-    }
+    <!-- MDI -->
+    <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
 
-    @media screen and (max-width: 500px) {
-      .navbar a {
-        float: none;
-        display: block;
-      }
-    }
-  </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</head>
 
-  <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Brief</a>
-    <a href="#"><i class="fa fa-fw fa-database"></i> Data</a>
-    <a href="#"><i class="fas fa-map-marked-alt"></i> Map</a>
-    <a href="#"><i class="fa fa-chart-line"></i> Dashboard</a>
-  </div>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar10">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="#">Brief</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Maps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <body>
-    <!-- <div>
-    <script type="x-shader/x-vertex" id="vertexshader">
+    <main>
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-12">
+                    <h1 class="text-center display-1"><strong>Rewards Program Study</strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav .nav-item').click(function () {
+                $('.navbar-nav .nav-item').removeClass('active');
+                $(this).addClass('active');
+            })
+        });
+    </script>
+</body>
 
-      attribute float size;
-        attribute vec3 customColor;
-        varying vec3 vColor;
-
-        void main() {
-
-          vColor = customColor;
-          vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-          gl_PointSize = size * ( 300.0 / -mvPosition.z );
-          gl_Position = projectionMatrix * mvPosition;
-
-        }
-      </script>
-
-    <script type="x-shader/x-fragment" id="fragmentshader">
-
-      uniform vec3 color;
-        uniform sampler2D pointTexture;
-
-        varying vec3 vColor;
-
-        void main() {
-
-          gl_FragColor = vec4( color * vColor, 1.0 );
-          gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
-
-        }
-      </script>
-
-    <div id="magic"></div>
-    <div class="playground">
-      <div class="bottomPosition"></div>
-    </div> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
-    <script src="./script.js"></script> -->
-  </body>
 </html>

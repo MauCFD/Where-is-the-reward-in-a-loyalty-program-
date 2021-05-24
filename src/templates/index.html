@@ -1,67 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  ​
   <head>
+    <title>Rewards Program Analysis | Where is the Reward? - Intro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta
-      charset="utf-8"
       name="viewport"
-      content="width=device-width, initial-scale=1"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Where is the reward in a rewards program?</title>
+    ​
+
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="../static/css/index.css" />
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    ​
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    ​ ​ ​
+
+    MDI -->
+    <!-- <link
+      rel="stylesheet"
+      href="http://cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css"
+    /> -->
+    ​
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar {
-      width: 100%;
-      background-color: #12161d;
-      overflow: auto;
-    }
-
-    .navbar a {
-      float: left;
-      padding: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background-color: #12161d;
-    }
-
-    .active {
-      background-color: #d3b502;
-    }
-
-    @media screen and (max-width: 500px) {
-      .navbar a {
-        float: none;
-        display: block;
-      }
-    }
-  </style>
-
-  <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Brief</a>
-    <a href="#"><i class="fa fa-fw fa-database"></i> Data</a>
-    <a href="#"><i class="fas fa-map-marked-alt"></i> Map</a>
-    <a href="#"><i class="fa fa-chart-line"></i> Dashboard</a>
-  </div>
-
+  ​
   <body>
-    <!-- <div>
-    <script type="x-shader/x-vertex" id="vertexshader">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar10"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item active">
+                <a class="nav-link font-weight-bold" href="#">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Brief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Maps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Dashboard</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    ​
+    <!-- <div style= "background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 95%), url('../static/images/Background.jpg');
+    height: 100vh; display: flex; background-size: cover; padding: 40px"> -->
+    <!-- <div class="container" style="color: black; text-align: justify">
+      <div class="row justify-content-md-center">
+        <div class="col-xl-auto"> -->
+    <!-- <h1>Where is the reward?</h1> -->
+    <!-- </div>
+      </div> -->
+    <main>
+      <script type="x-shader/x-vertex" id="vertexshader">
 
-      attribute float size;
+        attribute float size;
         attribute vec3 customColor;
         varying vec3 vColor;
 
@@ -75,9 +116,9 @@
         }
       </script>
 
-    <script type="x-shader/x-fragment" id="fragmentshader">
+      <script type="x-shader/x-fragment" id="fragmentshader">
 
-      uniform vec3 color;
+        uniform vec3 color;
         uniform sampler2D pointTexture;
 
         varying vec3 vColor;
@@ -90,11 +131,48 @@
         }
       </script>
 
-    <div id="magic"></div>
-    <div class="playground">
-      <div class="bottomPosition"></div>
-    </div> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
-    <script src="./script.js"></script> -->
+      <div id="magic"></div>
+      <div class="playground"></div>
+    </main>
+
+    <!-- <div class="row" style="padding: 10px">
+        <div class="col-xl" style="text-align: right; padding: 50px">
+          <h3>What Is a Rewards Program?</h3>
+        </div>
+        <div class="row">
+          <div class="col-xl" style="text-align: left; padding: 10px">
+            Rewards programs are a great way to engage customers' attention.
+            They work by offering prizes, discounts, and even cash to their most
+            loyal buyers to retain them. The more often a client consumes a
+            brand, the more benefits will be available. For a Rewards Program to
+            be successful in a company's strategy, theory says it shall return
+            no more than 2% of its total income.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl" style="text-align: left; padding: 25px">
+            The next project will consider a shock absorber brand's program. Its
+            mechanics are simple. Subscribed customers are categorized by their
+            monthly level of purchase, and these 6 different categories will
+            serve to establish a minimum level of sales to be reached. This will
+            serve to obtain monthly points, but by the quarter's end, a couple
+            of bonuses can also be gained. Ultimately category C6 can earn an
+            additional bonus at the end of the year as well.
+          </div>
+        </div>
+      </div> -->
+
+    <!-- <script>
+      $(document).ready(function () {
+        $(".navbar-nav .nav-item").click(function () {
+          $(".navbar-nav .nav-item").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script> -->
+    <!-- three.js code  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+    <script src="../static/js/index.js"></script>
   </body>
+  ​
 </html>
